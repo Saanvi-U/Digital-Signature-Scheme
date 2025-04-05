@@ -1,0 +1,27 @@
+# Bytecode and Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Private key files (DO NOT COMMIT)
+key.pem
+private_key.pem
+
+# Optional: SSL certificate (optional to include or exclude)
+cert.pem
+
+# Ignore hidden system files
+.DS_Store
+
+# Keep essential files
+!*.py
+!.gitignore
+
+# Ensure folders are included
+!certificates/
+!certificates/**
+
+!signatures/
+!signatures/**
